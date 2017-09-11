@@ -1,0 +1,32 @@
+{
+    "name": "ktree/grid",
+    "description": "ktree grid",
+    "type": "yii2-extension",
+    "keywords": [
+        "grid",
+        "yii",
+        "yii2",
+        "extension",
+        "widget",
+        "pagination",
+        "inline edit",
+        "advance search"
+    ],
+    "authors": [
+        {
+            "name": "ktree"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "yiisoft/yii2": "~2.0.0",
+      "yiisoft/yii2-jui": "2.0.*@dev",
+      "bower-asset/select2": "4.0.1",
+      "bower-asset/jquery-serialize-object": "~2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ktree\\grid\\": ""
+        }
+    }
+}

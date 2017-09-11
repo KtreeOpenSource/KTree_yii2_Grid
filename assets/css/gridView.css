@@ -1,0 +1,268 @@
+.grid-main-header .pagination{
+  margin : 0px;
+}
+.grid-main-header.panel-body{
+  border-bottom: 1px solid #ddd;
+}
+.ui-dialog {
+    z-index: 1050;
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
+    width: 600px !important;
+}
+.manage-col-sortable li.disable {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+.manage-col-sortable li {
+    padding: 8px 10px;
+    background: #fff;
+    border-bottom: solid 1px #f4f4f4;
+    cursor: move;
+    font-size: 14px;
+}
+.manage-col-sortable {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    padding: 0px;
+    height: 300px;
+    overflow-y: auto;
+}
+.grid-view .grid-main-header .pagination input{
+    width: 70px;
+    text-align: center;
+    margin-right: 5px !important;
+    display: inline-block;
+}
+.grid-view .grid-main-header .pagination span.grid-pager-content{
+  display: inline-block;
+  width: auto;
+}
+.search-list.grid-header-blk .select2-container--default .select2-selection--single {
+    height: 34px;
+}
+.grid-view li{
+    list-style: none;
+}
+.grid-view .grid-table.card-view li>div {
+    margin: 5px;
+}
+.grid-view .grid-table.card-view li .card-actions {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    background: #fff;
+    box-shadow: -1px -1px 2px #eee;
+}
+.grid-view .grid-table.card-view li:hover .card-actions {
+    display: block;
+}
+.grid-view .grid-table.card-view li {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    word-break: break-all;
+}
+.grid-view .grid-table.card-view li .card-checkbox {
+    position: absolute;
+    top: -8px;
+    right: -7px;
+}
+.grid-view .grid-table.card-view li .card-checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+.grid-view .grid-table.card-view li .card-checkbox input[type="checkbox"]:checked +label {
+    background: #fff;
+}
+.grid-view .card-checkbox input[type="checkbox"] + label span {
+    display: none;
+}
+.grid-view .grid-table.card-view li .card-checkbox input[type="checkbox"]:checked +label span {
+    display: inline-block;
+    position: relative;
+    left: 2px;
+}
+.grid-view .grid-table.card-view li .card-checkbox input[type="checkbox"] + label {
+    color: #88E2E2;
+}
+.grid-view .grid-table.card-view li.selected>div {
+    border-color: #88E2E2;
+}
+.alert{
+  width: 80%;
+  padding: 5px;
+  top: 15px;
+  margin: auto;
+  z-index: 9999;
+  position: absolute;
+  left: 10%;
+}
+.alert .close{
+	position:static;
+	color:black;
+}
+.grid-view table{
+	word-break: break-all;
+    white-space: normal;
+}
+.card-group-container h5.card-group-header {
+    padding: 8px 5px;
+    margin: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    background: white;
+    border: none;
+    outline: none;
+    word-break: break-all;
+}
+.card-view .ui-icon-plus, .ui-icon-minus {
+    display: inline-block;
+    color: black;
+    position: inherit !important;
+    cursor: pointer;
+    left: 0px !important;
+}
+.global-loader{
+    text-align:center;
+}
+.ui-widget-overlay1 {
+    background: none repeat scroll 0 0 #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.ui-autocomplete {
+  z-index: 9999;
+}
+.global-loader .content-loader {
+    background : no-repeat scroll center 78% / 15% auto #ffffff;
+    border-radius: 8px !important;
+    color: #2b3643;
+    left: 47%;
+    padding: 10px 25px 15px;
+    position: fixed;
+    top: 45%;
+    z-index: 99999;
+}
+.global-loader .content-loader .loader {
+    display: inline-block;
+    border: 3px solid #f3f3f3;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.grid-table.card-view{padding:15px;}
+#advance-search_form .modal-content{
+    height: auto;
+    overflow-x: scroll;
+    width: 600px;
+}
+.select2-results__option i.info {
+    color: #dd4b39;
+    float: right;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+#advance-search_form-button{margin:0px 10px 0px 10px;}
+.grid-main-header .btn-toolbar>div {
+    padding-bottom: 10px;
+}
+
+.grid-view .pagination li {
+    padding: 0px;
+    width: auto;
+}
+
+.pagination li.page-list {
+    padding: 0 5px;
+}
+
+.grid-mode-switch.btn-group.grid-header-blk {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.grid-mode-switch a.btn {
+    width: 50%;
+}
+.grid-view .btn-toolbar > .btn-group {
+  margin-left:0px;
+}
+@media (max-width:767px) {
+  .grid-view .search-list {
+    width:130px;
+  }
+}
+@media (max-width:767px) {
+  #advance-search_form .modal-content{
+	width:350px;
+  }
+  .ui-dialog{
+	width:350px !important;
+  }
+}
+@media (max-width:767px) {
+        .grid-header-blk a.btn.btn-primary {
+                padding: 6px 5px;
+        }
+        #advance-search_form-button {
+                margin:0px;
+        }
+}
+.grid-view .action-column a{padding:5px;display: inline-block;text-align: center;}
+.grid-view .list-group-item:last-child{
+	border-bottom-right-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+}
+.grid-view .list-group-item:first-child{
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.grid-view a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+.grid-view a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+.grid-view a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+@media (min-width:992px) {
+.grid-pagination,.grid-pagination .pager-form  {
+    width: auto;
+}
+.grid-pagination select.grid-pager-field {
+    display: inline;
+    width:auto;
+}
+
+}
